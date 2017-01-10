@@ -8,22 +8,26 @@ A new Lamb wave based delamination detection technology is proposed to allow det
 ### Effects of the Delamination on Lamb Wave Propagation
 ![](post/effect_of_the_delaniation.jpg)
 
-
 ## Publication
-
-* **Chul Min Yeum**, Hoon Sohn, Hyung Jin Lim, and Jeong Beom Ihn. “Reference-Free Delamination Detection Using Lamb Waves.” Structural Control and Health Monitoring 21, no. 5 (May 1, 2014): 675–84. [**[Web]**](http://onlinelibrary.wiley.com/doi/10.1002/stc.1594/abstract),[**[Paper]**](http://chulminy.github.io/cv/Files/Journal/2014_SCHM_Reference_free_Delamination.pdf).
+* **Chul Min Yeum**, Hoon Sohn, Hyung Jin Lim, and Jeong Beom Ihn. “Reference-Free Delamination Detection Using Lamb Waves.” Structural Control and Health Monitoring 21, no. 5 (May 1, 2014): 675–84. [**[Web]**](http://onlinelibrary.wiley.com/doi/10.1002/stc.1594/abstract).
 
 * **Chul Min Yeum**, Hoon Sohn, Jeong Beom Ihn, Hyung Jin Lim, “Reference-free delamination detection using Lamb wave time delay,” the 8h International Workshop on Structural Health Monitoring, Stanford, CA, September 13-15, 2011. [**[Paper]**](http://chulminy.github.io/cv/Files/Conference/2011_IWSHM_Paper.pdf),[**[PPT]**](http://chulminy.github.io/cv/Files/Conference/2011_IWSHM_PPT.pdf).   
 
+## Collaborators
+* Hoon Sohn
+* Jeon Beom Ihn
+
+## Acknowledgment
+This work is supported by the Boeing Company, the Radiation Technology Program (M20703000015-07N0300-01510) and the Nuclear Research & Development Program (2009-0083489) of National Research Foundation of Korea (NRF) funded by Ministry of Education, Science & Technology (MEST).
 
 ## Source Code & Data
 * All source code and data are released in this repository. 
 * If you use the codes and data for you publication, **please cite my paper(s)**.
 
 ## Setup
-* `RunFEMValid.m` is to theoretically study the proposed technique using numerical simulation. Please refer to **Section 4** in the [**journal paper**](http://chulminy.github.io/cv/Files/Journal/2014_SCHM_Reference_free_Delamination.pdf).
+* `RunFEMValid.m` is to theoretically validate the proposed technique using numerical simulation. Please refer to **Section 4** in the [**journal paper**](http://onlinelibrary.wiley.com/doi/10.1002/stc.1594/abstract).
 
-* `RunExpValid.m` is to examine the feasibility of the proposed technique using real experiment. Please refer to **Section 5** in the [**journal paper**](http://chulminy.github.io/cv/Files/Journal/2014_SCHM_Reference_free_Delamination.pdf).
+* `RunExpValid.m` is to examine the feasibility of the proposed technique using real experiment. Please refer to **Section 5** in the [**journal paper**](http://onlinelibrary.wiley.com/doi/10.1002/stc.1594/abstract).
 
 ## Sample Results (Numerical Simulation)
 
