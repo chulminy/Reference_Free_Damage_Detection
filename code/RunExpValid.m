@@ -340,7 +340,8 @@ plot(x_time*1000,DataDmg20.M0/normScaleY,'b', ...
      x_time*1000,DataDmg20.M1/normScaleY,':r', ...
      x_time*1000,DataDmg20.M2/normScaleY,'-.k','linewidth',3);
 set(gca,'fontsize',20,'linewidth',3,'fontweight','bold')
-legend('\bf Original','\bf A_0_,_T mode','\bf A_0_,_R mode'); legend('boxoff');
+legend('\bf Original','\bf A_0_,_T mode','\bf A_0_,_R mode'); 
+legend('boxoff');
 set(gca,'XTick',[0.06 0.1 0.15 0.2 0.25])
 set(gca,'XTickLabel',{'0.06','0.1','0.15','0.2','0.25'})
 set(gca,'YTick',[-1 -0.5 0 0.5 1])
